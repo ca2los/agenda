@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Agenda</title>
+        <link rel="icon" type="image/png" href="./img/favicon.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/styles.min.css" />
+    </head>
+
+    <body>
+        <header>
+            <section>
+                <ul>
+                    <li>
+                        <a href="https://github.com/ca2los">
+                            <img src="./img/github_icon_black.png" alt="GitHub Logo"/>
+                        </a>
+                    </li>
+                    <li>
+                        <p>
+                            <a href="https://ca2los.github.io/quiz/">/ca2los</a>
+                        </p>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <ul>
+                    <li>
+                        <button type="reset" onclick="location.href='https://github.com/ca2los/flexbox'">GitHub Repository</button>
+                    </li>
+                </ul>
+            </section>
+        </header>
+
+        <main>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Hour</th>
+                        <th>Description</th>
+                        <th>Save & Delete</th>
+                    </tr>
+                </thead>
+                <tbody id="project-display">
+                    <tr class="form-list">
+                        <th id="by_hour_09" class="by_hour">9:00</th>
+                        <th contenteditable="true" id="by_info_09" class="by_info">Check Email Inbox: Review every email in the inbox and make sure to give immediate response to every one. Remember to separate those you can solve to adjust today's agenda and get the best of time.
+                        </th>
+                        <th class="btn_group">
+                            <button class="save_item save_item_09">💾</button>
+                            <button class="remove_item">❌</button>
+                        </th>
+                    </tr>
+                    <tr class="form-list">
+                        <th id="by_hour_10" class="by_hour">10:00</th>
+                        <th contenteditable="true" id="by_info_10" class="by_info">Status with ARG: Daily checkup with the team to manage the pending tasks. Make sure you get last results from the 'importer' and compare its analytics with the databases.
+                        </th>
+                        <th class="btn_group">
+                            <button class="save_item save_item_10">💾</button>
+                            <button class="remove_item">❌</button>
+                        </th>
+                    </tr>
+                    <tr class="form-list">
+                        <th id="by_hour_11" class="by_hour">11:00</th>
+                        <th contenteditable="true" id="by_info_11" class="by_info">Status with EXT: Share with the team the results from the 'importer' and assign tasks to correct potential warnings and errors. If there are no tasks, then assign a new database to prepare it for migration.
+                        </th>
+                        <th class="btn_group">
+                            <button class="save_item save_item_11">💾</button>
+                            <button class="remove_item">❌</button>
+                        </th>
+                    </tr>
+                    <tr class="form-list">
+                        <th id="by_hour_12" class="by_hour">12:00</th>
+                        <th contenteditable="true" id="by_info_12" class="by_info">Google Search Console: Review the warnings and errors from the console. Start solving those with faster solutions and separate the more complex for the internal team.
+                        </th>
+                        <th class="btn_group">
+                            <button class="save_item save_item_12">💾</button>
+                            <button class="remove_item">❌</button>
+                        </th>
+                    </tr>
+                    <tr class="form-list">
+                        <th id="by_hour_13" class="by_hour">13:00</th>
+                        <th contenteditable="true" id="by_info_13" class="by_info">Advertisement: Make sure the publicity is available for all the websites, for WEB and AMP versions. Review the Units, positions, and sizes. If a space is empty, send a message to the team to solve the problem.
+                        </th>
+                        <th class="btn_group">
+                            <button class="save_item save_item_13">💾</button>
+                            <button class="remove_item">❌</button>
+                        </th>
+                    </tr>
+                    <tr class="form-list">
+                        <th id="by_hour_14" class="by_hour">14:00</th>
+                        <th contenteditable="true" id="by_info_14" class="by_info">Work Time: Now it's time to improve and solve those emails with more complex solutions. Try to make a plan, solve them if possible and make sure you separate those tasks you need to solve individually from those with a collaborative approach. Eat something!!!.
+                        </th>
+                        <th class="btn_group">
+                            <button class="save_item save_item_14">💾</button>
+                            <button class="remove_item">❌</button>
+                        </th>
+                    </tr>
+                    <tr class="form-list">
+                        <th id="by_hour_15" class="by_hour">15:00</th>
+                        <th contenteditable="true" id="by_info_15" class="by_info"></th>
+                        <th class="btn_group">
+                            <button class="save_item save_item_15">💾</button>
+                            <button class="remove_item">❌</button>
+                        </th>
+                    </tr>
+                    <tr class="form-list">
+                        <th id="by_hour_16" class="by_hour">16:00</th>
+                        <th contenteditable="true" id="by_info_16" class="by_info">Send the last emails of the day, and make sure they have all the possible information. Leave no room for doubt.
+                        </th>
+                        <th class="btn_group">
+                            <button class="save_item save_item_16">💾</button>
+                            <button class="remove_item">❌</button>
+                        </th>
+                    </tr>
+                    <tr class="form-list">
+                        <th id="by_hour_17" class="by_hour">17:00</th>
+                        <th contenteditable="true" id="by_info_17" class="by_info">Go home and drive safe :D</th>
+                        <th class="btn_group">
+                            <button class="save_item save_item_17">💾</button>
+                            <button class="remove_item">❌</button>
+                        </th>
+                    </tr>
+                    <tr class="form-list">
+                        <th id="by_hour_18" class="by_hour">18:00</th>
+                        <th contenteditable="true" id="by_info_18" class="by_info">BOOTCAMP: The best part of the day. Ask questions, even if the question seems dumb. Get the best of time. DON'T THINK ABOUT WORK!
+                        </th>
+                        <th class="btn_group">
+                            <button class="save_item save_item_18">💾</button>
+                            <button class="remove_item">❌</button>
+                        </th>
+                    </tr>
+                    <tr class="form-list">
+                        <th id="by_hour_19" class="by_hour">19:00</th>
+                        <th contenteditable="true" id="by_info_19" class="by_info"></th>
+                        <th class="btn_group">
+                            <button class="save_item save_item_19">💾</button>
+                            <button class="remove_item">❌</button>
+                        </th>
+                    </tr>
+                    <tr class="form-list">
+                        <th id="by_hour_20" class="by_hour">20:00</th>
+                        <th contenteditable="true" id="by_info_20" class="by_info"></th>
+                        <th class="btn_group">
+                            <button class="save_item save_item_20">💾</button>
+                            <button class="remove_item">❌</button>
+                        </th>
+                    </tr>
+                    <tr class="form-list">
+                        <th id="by_hour_21" class="by_hour">21:00</th>
+                        <th contenteditable="true" id="by_info_21" class="by_info"></th>
+                        <th class="btn_group">
+                            <button class="save_item save_item_21">💾</button>
+                            <button class="remove_item">❌</button>
+                        </th>
+                    </tr>
+                    <tr class="form-list">
+                        <th id="by_hour_22" class="by_hour">22:00</th>
+                        <th contenteditable="true" id="by_info_22" class="by_info">STUDY: Spend time for yourself, you need to study and/or solve the homework.</th>
+                        <th class="btn_group">
+                            <button class="save_item save_item_22">💾</button>
+                            <button class="remove_item">❌</button>
+                        </th>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+
+        <footer>
+            <section class="container">
+                <section class="columns">
+                    <img src="./img/avatar.jpg" alt="Profile photo">
+                </section>
+                <section class="columns">
+                    <h1><a href="https://github.com/ca2los" target="_blank">ca2los</a></h1>
+                    <button type="reset" onclick="location.href='https://ca2los.github.io/quiz/'">GitHub Repository</button>
+                    <p><strong>Description:</strong> Figuring out...</p>
+                </section>
+            </section>
+        </footer>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+        <script src="./js/script.js"></script>
+    </body>
+</html>
