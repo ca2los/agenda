@@ -178,6 +178,7 @@ body main #time-display {
   right: 0;
   left: 0;
   text-align: center;
+  z-index: 1;
 }
 body footer {
   max-width: none;
