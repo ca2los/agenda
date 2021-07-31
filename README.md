@@ -7,7 +7,7 @@
 
 The project is a quick view of how online services like 'Monday', work through 
 browsers with editable text contents, and saving information after editing an
-element. To make it run the project makes use of JS principles, jQuery basics, 
+element. To make it possible, the project makes use of JS principles, jQuery basics, 
 and libraries like Moment JS.
 
     * Edit a block in the agenda and add text inside of it
@@ -20,7 +20,9 @@ and libraries like Moment JS.
 This project is intended to demonstrate the possibilities of JavaScript. [Take
 a look at the script.js](https://github.com/ca2los/agenda/blob/main/js/script.js), and you will find the highlights of the program.
 
-- [x] Functions
+- [x] JS
+- [x] JSON
+- [x] jQuery
 - [x] Time Display
 - [x] Content Editable
 - [x] Delete
