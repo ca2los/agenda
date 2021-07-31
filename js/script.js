@@ -1,11 +1,8 @@
-// JQ Official - Datepicker
-$(function(){
-    $("#datepicker").datepicker();
-});
-
 // JQ Official - Moment JS
-let date_today = moment().format("HH");
-$("#time-display").text(date_today);
+function date_run(){
+    $('#time-display').text(moment().format('MMMM Do YYYY, h:mm:ss a'));
+}
+setInterval(date_run, 1000);
 
 /*$(function() {
     $( "tbody" ).sortable();
