@@ -1,5 +1,5 @@
 # AGENDA
-### By Carlos Aguirre Oseguera
+###### By Carlos Aguirre Oseguera
 #### Sessions: July 19 / July 25
 
 [TRY IT HERE!](https://ca2los.github.io/agenda/)
